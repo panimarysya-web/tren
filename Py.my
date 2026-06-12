@@ -1,0 +1,4 @@
+with open("Hello_git.txt", "r", ancoding =  "utf-8") as file:
+    name = file.read()
+print(f"Nice to meet you, {name}")
+
